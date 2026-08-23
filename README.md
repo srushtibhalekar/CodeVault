@@ -109,5 +109,8 @@ Srushti Bhalekar
 🎓 IT Engineering Student
 💻 Aspiring Java Developer
 🚀 Building practical software projects
-
-<p align="left"> <a href="https://github.com/srushtibhalekar"> <img src="https://img.shields.io/badge/GitHub-srushtibhalekar-black?style=for-the-badge&logo=github"> </a> </p>
+<p align="center">
+  <a href="https://github.com/srushtibhalekar">
+    <img src="https://img.shields.io/badge/GitHub-srushtibhalekar-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>

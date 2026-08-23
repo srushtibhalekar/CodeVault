@@ -20,4 +20,15 @@ public class Developer {
     public void increaseStreak() {
         codingStreak++;
     }
+
+    public void showStreakMessage() {
+
+        if (codingStreak == 0) {
+            System.out.println("Start coding today to build your streak!");
+        } else if (codingStreak < 7) {
+            System.out.println("🔥 Keep going! Your streak is growing.");
+        } else {
+            System.out.println("🏆 Amazing! You have a strong coding streak.");
+        }
+    }
 }

@@ -61,4 +61,16 @@ public class CodeVaultManager {
             achievement.displayAchievement();
         }
     }
+
+    public void showDashboard() {
+
+        System.out.println("\n===== CODEVAULT DASHBOARD =====");
+
+        System.out.println("Skills: " + skills.size());
+        System.out.println("Coding Problems: " + problems.size());
+        System.out.println("Daily Goals: " + goals.size());
+        System.out.println("Achievements: " + achievements.size());
+
+        System.out.println("===============================");
+    }
 }

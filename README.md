@@ -106,8 +106,8 @@ Instead of maintaining your progress across multiple notebooks, spreadsheets, or
 👩‍💻 Author
 Srushti Bhalekar
 
-🎓 IT Engineering Student
-💻 Aspiring Java Developer
+🎓 Graduate IT Enginner
+💻 Java Developer
 🚀 Building practical software projects
 <p align="center">
   <a href="https://github.com/srushtibhalekar">

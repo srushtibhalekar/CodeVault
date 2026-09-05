@@ -1,131 +1,149 @@
 # 🚀 CodeVault
 
-### Your Personal Developer Command Center
+### 🧠 Your Personal Developer Command Center
 
-<p align="center">
-  <b>Track Skills • Solve Problems • Set Goals • Build Consistency</b>
-</p>
+> **Track your skills. Solve problems. Set goals. Build consistency.**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-Core%20Java-orange?style=for-the-badge&logo=openjdk">
-  <img src="https://img.shields.io/badge/OOP-Concepts-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Collections-ArrayList-green?style=for-the-badge">
-</p>
+A **Core Java developer productivity application** designed to help developers organize their learning journey, track coding progress, manage daily goals, and stay consistent.
 
 ---
 
-## 💡 About
+## ✨ Why CodeVault?
 
-**CodeVault** is a console-based developer productivity application built with **Core Java**.
+Learning to code is not only about writing programs — it's about **consistency, progress, and continuous improvement**.
 
-It helps developers manage their programming skills, coding problems, daily goals, achievements, and coding streak — all from one simple dashboard.
-
-> **Learn. Track. Improve. 🚀**
-
----
-
-## ✨ Features
-
-* 👤 **Developer Profile** — Manage developer information
-* 💻 **Skill Tracker** — Add and track programming skills
-* 🧩 **Problem Tracker** — Maintain coding problems
-* 🎯 **Daily Goals** — Set coding targets
-* 📊 **Dashboard** — View overall progress
-* 🔥 **Coding Streak** — Track consistency
-* 🏆 **Achievements** — Track milestones
-* 🛡️ **Input Validation** — Handle invalid inputs
-
----
-
-## 🖥️ Preview
+**CodeVault** brings these things together in one simple console-based application.
 
 ```text
-╔══════════════════════════════════════╗
-║          🚀 CODEVAULT                ║
-╠══════════════════════════════════════╣
-║                                      ║
-║  1. 👤 View Profile                  ║
-║  2. 💻 Add Skill                     ║
-║  3. 🧩 Add Coding Problem            ║
-║  4. 🎯 Add Daily Goal                ║
-║  5. 📊 View Dashboard                ║
-║  6. 📚 View Skills                   ║
-║  7. 📝 View Problems                 ║
-║  8. 🎯 View Goals                    ║
-║  9. 🏆 View Achievements             ║
-║ 10. 🚪 Exit                          ║
-║                                      ║
-╚══════════════════════════════════════╝
-```
-
-### 📊 Dashboard
-
-```text
-╔══════════════════════════════════════╗
-║        📊 DEVELOPER DASHBOARD       ║
-╠══════════════════════════════════════╣
-║                                      ║
-║  💻 Skills          : 5              ║
-║  🧩 Problems        : 12             ║
-║  🎯 Daily Goals     : 4              ║
-║  🏆 Achievements    : 3              ║
-║  🔥 Coding Streak   : 7 Days         ║
-║                                      ║
-╚══════════════════════════════════════╝
+        ┌───────────────────────────────┐
+        │          🚀 CODEVAULT          │
+        │     Developer Command Center   │
+        └───────────────┬───────────────┘
+                        │
+          ┌─────────────┼─────────────┐
+          ▼             ▼             ▼
+      🧠 Skills      💻 Problems    🎯 Goals
+          │             │             │
+          └─────────────┼─────────────┘
+                        ▼
+                 📊 Progress
+                        │
+                        ▼
+                 🏆 Achievements
 ```
 
 ---
 
-## 🏗️ Architecture
+## 🌟 Features
+
+| Feature                  | Description                         |
+| ------------------------ | ----------------------------------- |
+| 👤 **Developer Profile** | Manage developer information        |
+| 🧠 **Skill Tracker**     | Track programming skills and levels |
+| 💻 **Problem Tracker**   | Record solved coding problems       |
+| 🎯 **Daily Goals**       | Set and manage daily objectives     |
+| 📊 **Dashboard**         | View overall coding progress        |
+| 🔥 **Coding Streak**     | Maintain learning consistency       |
+| 🏆 **Achievements**      | Unlock milestones                   |
+| 🛡️ **Validation**       | Handles invalid user input          |
+
+---
+
+## 🖥️ Application Preview
 
 ```text
-                 🚀 CODEVAULT
-                      │
-                 ┌────┴────┐
-                 │  Main   │
-                 │  Menu   │
-                 └────┬────┘
-                      │
-       ┌──────────────┼──────────────┐
-       ▼              ▼              ▼
-   👤 Profile      📊 Trackers    🏆 Achievements
-                      │
-              ┌───────┼───────┐
-              ▼       ▼       ▼
-           💻 Skills 🧩 Problems 🎯 Goals
-                      │
-                      ▼
-                 🔥 Streak
+╔══════════════════════════════════════════╗
+║             🚀 CODEVAULT                 ║
+║       Developer Command Center           ║
+╠══════════════════════════════════════════╣
+║                                          ║
+║  1. 👤 Developer Profile                 ║
+║  2. 🧠 Manage Skills                     ║
+║  3. 💻 Coding Problems                   ║
+║  4. 🎯 Daily Goals                       ║
+║  5. 📊 View Dashboard                    ║
+║  6. 🏆 Achievements                      ║
+║  7. 🔥 Coding Streak                     ║
+║  8. 🚪 Exit                              ║
+║                                          ║
+╚══════════════════════════════════════════╝
+```
+
+### 📊 Developer Dashboard
+
+```text
+════════════════════════════════════
+        📊 DEVELOPER DASHBOARD
+════════════════════════════════════
+
+👤 Developer      : Srushti
+🧠 Skills         : 08
+💻 Problems Solved: 42
+🎯 Goals Completed: 18
+🔥 Current Streak : 07 Days
+🏆 Achievements   : 05
+
+════════════════════════════════════
+       🚀 KEEP BUILDING!
+════════════════════════════════════
 ```
 
 ---
 
-## 🧱 Core Java Concepts
+## 🏗️ Project Architecture
 
-This project combines multiple Java concepts into one practical application:
+```text
+CodeVault
+│
+├── 👤 Developer
+│
+├── 🧠 Skill
+│
+├── 💻 CodingProblem
+│
+├── 🎯 DailyGoal
+│
+├── 🏆 Achievement
+│
+└── 🚀 CodeVault
+      │
+      ├── Menu
+      ├── User Input
+      ├── Validation
+      └── Application Logic
+```
 
-* ☕ Classes & Objects
-* 🧱 Encapsulation
-* 🔐 Access Modifiers
-* 🏗️ Constructors
-* 📦 ArrayList & Collections
-* 🔀 Switch Statements
-* 🔁 Loops
-* 🛠️ Methods
-* ⌨️ Scanner
-* 🛡️ Input Validation
+---
+
+## ☕ Core Java Concepts
+
+This project focuses on practical **Core Java** implementation:
+
+* 🔹 Classes & Objects
+* 🔹 Encapsulation
+* 🔹 Constructors
+* 🔹 Methods
+* 🔹 Collections Framework
+* 🔹 `ArrayList`
+* 🔹 `Scanner`
+* 🔹 Loops
+* 🔹 Conditional Statements
+* 🔹 `switch-case`
+* 🔹 Input Validation
+* 🔹 Object-Oriented Programming
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology   | Purpose                 |
-| ------------ | ----------------------- |
-| ☕ Core Java  | Application development |
-| 🧱 OOP       | Project architecture    |
-| 📦 ArrayList | Data management         |
-| ⌨️ Scanner   | User input              |
-| 🔀 Switch    | Menu system             |
+```text
+Language       → Java
+Paradigm       → Object-Oriented Programming
+Collections    → ArrayList
+Input          → Scanner
+Logic          → Loops + Conditions + Switch
+IDE             → VS Code / IntelliJ IDEA / Eclipse
+```
 
 ---
 
@@ -147,13 +165,13 @@ CodeVault/
 
 ## ▶️ Run the Project
 
-### Compile
+### 1️⃣ Compile
 
 ```bash
-javac CodeVault.java
+javac *.java
 ```
 
-### Run
+### 2️⃣ Run
 
 ```bash
 java CodeVault
@@ -163,56 +181,44 @@ java CodeVault
 
 ## 🔮 Future Enhancements
 
-* 🔲 Exception Handling
-* 🔲 File Handling
-* 🔲 PostgreSQL Database
-* 🔲 JDBC Integration
-* 🔲 Login & Authentication
-* 🔲 Search & Filtering
-* 🔲 XP & Level System
-* 🔲 Statistics & Analytics
-* 🔲 Spring Boot Backend
+```text
+☐ PostgreSQL Database
+☐ JDBC Integration
+☐ Login & Authentication
+☐ File Storage
+☐ Advanced Progress Analytics
+☐ Leaderboard
+☐ GUI Version
+☐ Spring Boot REST API
+```
 
 ---
 
-## 🎯 Goal
+## 🎯 Project Goal
 
-The goal of CodeVault is to turn **Core Java concepts into a practical application** while creating a foundation for future database and backend integration.
+> **CodeVault is built to demonstrate how Core Java can be used to create a practical, structured, and interactive developer-focused application.**
 
-```text
-Core Java
-    ↓
-OOP
-    ↓
-Collections
-    ↓
-Application Development
-    ↓
-JDBC + PostgreSQL
-    ↓
-Spring Boot
-    ↓
-🚀 Java Developer
-```
+It combines **OOP + Collections + Application Logic + User Interaction** into one project.
 
 ---
 
 ## 👩‍💻 Author
 
-**Srushti Bhalekar**
+### **Srushti Bhalekar**
 
 🎓 Graduate IT Engineer
 💻 Aspiring Java Developer
-🚀 Building practical Java projects
 
-<p>
-  <a href="https://github.com/srushtibhalekar">
-    <img src="https://img.shields.io/badge/GitHub-srushtibhalekar-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-srushtibhalekar-black?style=for-the-badge\&logo=github)](https://github.com/srushtibhalekar)
 
 ---
 
-<p align="center">
-  ⭐ <b>CodeVault — Learn. Track. Improve.</b>
-</p>
+<div align="center">
+
+### 🚀 CodeVault
+
+**Learn → Practice → Track → Improve → Repeat**
+
+⭐ If you like the project, consider giving it a star!
+
+</div>

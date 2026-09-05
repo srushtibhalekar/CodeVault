@@ -1,171 +1,131 @@
 # 🚀 CodeVault
 
-### 🧠 Your Personal Developer Command Center
+### Your Personal Developer Command Center
 
 <p align="center">
-  <b>Track Skills • Solve Problems • Build Streaks • Achieve More</b>
+  <b>Track Skills • Solve Problems • Set Goals • Build Consistency</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-Core%20Java-orange?style=for-the-badge&logo=openjdk" alt="Java">
-  <img src="https://img.shields.io/badge/OOP-Concepts-blue?style=for-the-badge" alt="OOP">
-  <img src="https://img.shields.io/badge/Collections-ArrayList-green?style=for-the-badge" alt="Collections">
-  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Java-Core%20Java-orange?style=for-the-badge&logo=openjdk">
+  <img src="https://img.shields.io/badge/OOP-Concepts-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Collections-ArrayList-green?style=for-the-badge">
 </p>
 
 ---
 
-## 💡 What is CodeVault?
+## 💡 About
 
-**CodeVault** is a Core Java-based developer productivity application designed to help programmers organize and track their coding journey.
+**CodeVault** is a console-based developer productivity application built with **Core Java**.
 
-Instead of maintaining your progress across multiple notebooks, spreadsheets, or apps, CodeVault brings everything into one simple developer dashboard.
+It helps developers manage their programming skills, coding problems, daily goals, achievements, and coding streak — all from one simple dashboard.
 
-> 🔐 **Your coding journey. Your progress. Your vault.**
+> **Learn. Track. Improve. 🚀**
 
 ---
 
 ## ✨ Features
 
-| Feature                  | Description                           |
-| ------------------------ | ------------------------------------- |
-| 👤 **Developer Profile** | Manage your developer information     |
-| 💻 **Skill Tracker**     | Add and track programming skills      |
-| 🧩 **Problem Tracker**   | Maintain your coding problem list     |
-| 🎯 **Daily Goals**       | Set your daily coding targets         |
-| 📊 **Dashboard**         | Get a quick overview of your progress |
-| 🔥 **Coding Streak**     | Track your consistency                |
-| 🏆 **Achievements**      | Display developer achievements        |
-| 🛡️ **Input Validation** | Prevent invalid skill levels          |
+* 👤 **Developer Profile** — Manage developer information
+* 💻 **Skill Tracker** — Add and track programming skills
+* 🧩 **Problem Tracker** — Maintain coding problems
+* 🎯 **Daily Goals** — Set coding targets
+* 📊 **Dashboard** — View overall progress
+* 🔥 **Coding Streak** — Track consistency
+* 🏆 **Achievements** — Track milestones
+* 🛡️ **Input Validation** — Handle invalid inputs
 
 ---
 
-## 🖥️ Application Preview
+## 🖥️ Preview
 
 ```text
-╔════════════════════════════════════════════╗
-║              🚀 CODEVAULT                  ║
-╠════════════════════════════════════════════╣
-║                                            ║
-║  1. 👤 View Profile                        ║
-║  2. 💻 Add Skill                           ║
-║  3. 🧩 Add Coding Problem                  ║
-║  4. 🎯 Add Daily Goal                      ║
-║  5. 📊 View Dashboard                      ║
-║  6. 📚 View Skills                         ║
-║  7. 📝 View Problems                       ║
-║  8. 🎯 View Goals                          ║
-║  9. 🏆 View Achievements                   ║
-║ 10. 🚪 Exit                                ║
-║                                            ║
-╚════════════════════════════════════════════╝
+╔══════════════════════════════════════╗
+║          🚀 CODEVAULT                ║
+╠══════════════════════════════════════╣
+║                                      ║
+║  1. 👤 View Profile                  ║
+║  2. 💻 Add Skill                     ║
+║  3. 🧩 Add Coding Problem            ║
+║  4. 🎯 Add Daily Goal                ║
+║  5. 📊 View Dashboard                ║
+║  6. 📚 View Skills                   ║
+║  7. 📝 View Problems                 ║
+║  8. 🎯 View Goals                    ║
+║  9. 🏆 View Achievements             ║
+║ 10. 🚪 Exit                          ║
+║                                      ║
+╚══════════════════════════════════════╝
 ```
 
 ### 📊 Dashboard
 
 ```text
-╔════════════════════════════════════════╗
-║          📊 CODEVAULT DASHBOARD       ║
-╠════════════════════════════════════════╣
-║                                        ║
-║  💻 Skills          : 5                ║
-║  🧩 Problems        : 12               ║
-║  🎯 Daily Goals     : 4                ║
-║  🏆 Achievements    : 3                ║
-║  🔥 Coding Streak   : 7 days           ║
-║                                        ║
-╚════════════════════════════════════════╝
+╔══════════════════════════════════════╗
+║        📊 DEVELOPER DASHBOARD       ║
+╠══════════════════════════════════════╣
+║                                      ║
+║  💻 Skills          : 5              ║
+║  🧩 Problems        : 12             ║
+║  🎯 Daily Goals     : 4              ║
+║  🏆 Achievements    : 3              ║
+║  🔥 Coding Streak   : 7 Days         ║
+║                                      ║
+╚══════════════════════════════════════╝
 ```
 
 ---
 
-## 🏗️ Project Architecture
+## 🏗️ Architecture
 
 ```text
-                    🚀 CODEVAULT
-                         │
-                         ▼
-                  ┌─────────────┐
-                  │  Main Menu  │
-                  └──────┬──────┘
-                         │
-          ┌──────────────┼──────────────┐
-          │              │              │
-          ▼              ▼              ▼
-     👤 Developer    📊 Trackers     🏆 Achievements
-          │              │
-          │       ┌──────┼──────┐
-          │       │      │      │
-          │       ▼      ▼      ▼
-          │    Skills Problems Goals
-          │
-          ▼
-     🔥 Coding Streak
+                 🚀 CODEVAULT
+                      │
+                 ┌────┴────┐
+                 │  Main   │
+                 │  Menu   │
+                 └────┬────┘
+                      │
+       ┌──────────────┼──────────────┐
+       ▼              ▼              ▼
+   👤 Profile      📊 Trackers    🏆 Achievements
+                      │
+              ┌───────┼───────┐
+              ▼       ▼       ▼
+           💻 Skills 🧩 Problems 🎯 Goals
+                      │
+                      ▼
+                 🔥 Streak
 ```
 
 ---
 
-## 🧱 Core Java Concepts Used
+## 🧱 Core Java Concepts
 
-CodeVault is designed to demonstrate practical **Core Java** concepts.
+This project combines multiple Java concepts into one practical application:
 
-### ☕ Java Fundamentals
-
-* Variables
-* Data Types
-* Operators
-* Conditional Statements
-* Loops
-* Methods
-* Arrays
-* Strings
-
-### 🧱 Object-Oriented Programming
-
-* Classes & Objects
-* Encapsulation
-* Constructors
-* Inheritance
-* Polymorphism
-* Abstraction
-* Access Modifiers
-
-### 📦 Collections
-
-* `ArrayList`
-* Collection traversal
-* Adding and removing objects
-* Searching objects
-* Managing dynamic data
-
-### ⌨️ User Interaction
-
-* `Scanner`
-* Menu-driven application
-* `switch`
-* Input validation
-
-### 🛡️ Validation
-
-* Skill-level validation
-* Empty input handling
-* Numeric validation
-* Menu validation
+* ☕ Classes & Objects
+* 🧱 Encapsulation
+* 🔐 Access Modifiers
+* 🏗️ Constructors
+* 📦 ArrayList & Collections
+* 🔀 Switch Statements
+* 🔁 Loops
+* 🛠️ Methods
+* ⌨️ Scanner
+* 🛡️ Input Validation
 
 ---
 
 ## 🛠️ Tech Stack
 
-```text
-☕ Core Java
-🧱 Object-Oriented Programming
-📦 Java Collections Framework
-📋 ArrayList
-⌨️ Scanner
-🔀 Switch Statements
-🔁 Loops
-🛡️ Input Validation
-```
+| Technology   | Purpose                 |
+| ------------ | ----------------------- |
+| ☕ Core Java  | Application development |
+| 🧱 OOP       | Project architecture    |
+| 📦 ArrayList | Data management         |
+| ⌨️ Scanner   | User input              |
+| 🔀 Switch    | Menu system             |
 
 ---
 
@@ -180,37 +140,20 @@ CodeVault/
 ├── CodingProblem.java
 ├── DailyGoal.java
 ├── Achievement.java
-│
 └── README.md
 ```
 
-> The exact file structure may change as the project evolves.
-
 ---
 
-## ▶️ How to Run
+## ▶️ Run the Project
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/srushtibhalekar/CodeVault.git
-```
-
-### 2️⃣ Open the Project
-
-Open the project folder in:
-
-* IntelliJ IDEA
-* Eclipse
-* VS Code
-
-### 3️⃣ Compile
+### Compile
 
 ```bash
 javac CodeVault.java
 ```
 
-### 4️⃣ Run
+### Run
 
 ```bash
 java CodeVault
@@ -218,28 +161,23 @@ java CodeVault
 
 ---
 
-## 🎯 Future Enhancements
+## 🔮 Future Enhancements
 
-The project can be extended with:
-
-* [ ] PostgreSQL database integration
-* [ ] JDBC connectivity
-* [ ] Login & authentication
-* [ ] File-based data storage
-* [ ] Exception handling
-* [ ] Multithreading
-* [ ] Search and filtering
-* [ ] Developer statistics
-* [ ] XP and level system
-* [ ] Advanced achievement system
-* [ ] GUI version using JavaFX
-* [ ] Spring Boot backend
+* 🔲 Exception Handling
+* 🔲 File Handling
+* 🔲 PostgreSQL Database
+* 🔲 JDBC Integration
+* 🔲 Login & Authentication
+* 🔲 Search & Filtering
+* 🔲 XP & Level System
+* 🔲 Statistics & Analytics
+* 🔲 Spring Boot Backend
 
 ---
 
-## 📈 Learning Objectives
+## 🎯 Goal
 
-This project helps practice:
+The goal of CodeVault is to turn **Core Java concepts into a practical application** while creating a foundation for future database and backend integration.
 
 ```text
 Core Java
@@ -248,24 +186,14 @@ OOP
     ↓
 Collections
     ↓
-Input Handling
+Application Development
     ↓
-Validation
+JDBC + PostgreSQL
     ↓
-Problem Solving
+Spring Boot
     ↓
-Application Design
+🚀 Java Developer
 ```
-
----
-
-## 🏆 Why CodeVault?
-
-CodeVault is more than a simple console application.
-
-It is designed as a **mini developer productivity system** that demonstrates how Core Java concepts can be combined to build a practical application.
-
-> 💻 **Learn Java → Build Projects → Track Progress → Become Job Ready**
 
 ---
 
@@ -274,12 +202,10 @@ It is designed as a **mini developer productivity system** that demonstrates how
 **Srushti Bhalekar**
 
 🎓 Graduate IT Engineer
-💻 Java Developer
-🚀 Building practical software projects
+💻 Aspiring Java Developer
+🚀 Building practical Java projects
 
-### 🔗 GitHub
-
-<p align="center">
+<p>
   <a href="https://github.com/srushtibhalekar">
     <img src="https://img.shields.io/badge/GitHub-srushtibhalekar-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
@@ -288,9 +214,5 @@ It is designed as a **mini developer productivity system** that demonstrates how
 ---
 
 <p align="center">
-  ⭐ If you find this project useful, consider giving it a star!
-</p>
-
-<p align="center">
-  <b>🚀 CodeVault — Build. Track. Improve.</b>
+  ⭐ <b>CodeVault — Learn. Track. Improve.</b>
 </p>
